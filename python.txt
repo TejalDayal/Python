@@ -1,0 +1,122 @@
+count even odd
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+count_odd = 0
+count_even = 0
+for x in numbers:
+        if  x % 2==0:
+    	     count_even+=1
+        else:
+    	     count_odd+=1
+print("Number of even numbers :",count_even)
+print("Number of odd numbers :",count_odd)
+
+fibonacci
+def fibo(n):
+   if n <= 1:
+       return n
+   else:
+       return(fibo(n-1) + fibo(n-2))
+n = int(input("Input a number: "))
+b=0
+a=1
+print("Fibonacci sequence:")
+while n!=b:
+    b=fibo(a)
+    print(fibo(a))
+    a+=1
+
+#Take a list, say for example this one:
+#  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] and 
+#write a program that prints out all the elements of the list that are less than N(User input number).
+#Extras:Instead of printing the elements one by one, make a new list that has all the elements less than N
+#(User input number) from this list in it and print out this new list.
+
+a= [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+n=int(input("Enter the No.: "))
+b=[]
+for i in range (len(a)):
+    if(a[i]<n):
+        b.append(a[i])
+print(b)
+
+odd in digit enter
+a=int(input("enter a no."))
+n=a
+temp=0
+while(n>0):
+    a=n%10
+    if (a%2!=0):
+        print(a)
+    # temp=a+temp
+    n=n//10
+
+palindrom
+#Write a Python function that checks whether a passed string is palindrome or not.
+
+def isPalindrome(string):
+	left_pos = 0
+	right_pos = len(string) - 1
+	
+	while right_pos >= left_pos:
+		if not string[left_pos] == string[right_pos]:
+			return False
+		left_pos += 1
+		right_pos -= 1
+	return True
+a=input("Enter the string: ")
+print(isPalindrome(a)) 
+
+prime no
+n=int(input("Enter The No: "))
+i=2
+if (n==0 or n==1):
+    print(n," is not prime number.")
+else:
+    while i<n:
+        if(n%i==0):
+            print(n," is not prime number.")      
+            break
+        else:
+            print(n," is prime number.")
+        i+=1
+
+string to letter
+# from collections import defaultdict, Counter
+str1 = 'w3resource' 
+my_dict = {}
+for letter in str1:
+    my_dict[letter] = my_dict.get(letter, 0) + 1
+print(my_dict)
+
+sum of digits
+n=int(input("Enter a number:"))
+tot=0
+while(n>0):
+    dig=n%10
+    tot=tot+dig
+    n=n//10
+print("The total sum of digits is:",tot)
+
+
+white space seprators
+a=input("enter your sentence: ")
+b=list(a.split(' '))
+c=[]
+for i in range(len(b)):
+    c.append(b[i])
+c.sort()
+d=[]
+for i in c:
+    if i not in d:
+        d.append(i)
+
+print(d)
+
+mountain
+m={'Everest': 8848, 'K2': 4020, 'Kangchenjunga':3922,'Lhotse':8516,'Makalu':8463}
+for x in m:
+  print(x)
+for x in m:
+  print(m[x])
+for x in m:
+  print(m+' is '+m[x]+' meter tall')

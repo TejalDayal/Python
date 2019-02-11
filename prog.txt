@@ -1,0 +1,81 @@
+1. Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included). 
+
+2. Write a Python program to convert temperatures to and from celsius, fahrenheit. 
+[ Formula : c/5 = f-32/9 [ where c = temperature in celsius and f = temperature in fahrenheit ] 
+Expected Output : 
+60°C is 140 in Fahrenheit
+45°F is 7 in Celsius 
+
+3. Write a Python program to count the number of even and odd numbers from a series of numbers.
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+Expected Output : 
+Number of even numbers : 5
+Number of odd numbers : 4
+
+4. Write a Python program to create the multiplication table (from 1 to 10) of a number.
+
+5. Write a Python function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument
+
+6. Write a Python function that takes a list and returns a new list with unique elements of the first list.
+
+7. Take a list, say for example this one:
+  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+  and write a program that prints out all the elements of the list that are less than N(User input number).
+  Extras:  
+   Instead of printing the elements one by one, make a new list that has all the elements less than N(User input number) from this list in it and print out this new list.
+
+8. Python Program to Print the Fibonacci sequence
+	- Ask user input number N > 0
+        - Pass N in python function which prints Fibonacci sequence
+	- Print Fibonacci sequence till that number
+
+9. Write a Python function that checks whether a passed string is palindrome or not.
+
+10. Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.
+
+
+
+
+
+1. Write a python program to print the square of all numbers from 0 to 10
+
+2. Write a python program to find the sum of all even numbers from 0 to 10
+
+4. Write a python program to get the following output
+
+1-----99
+
+2-----98
+
+3-----97
+
+.	.
+
+.	.
+
+98-----2
+
+99-----1
+
+5. Write a python program to print the first 10 numbers Fibonacci series
+
+10. Write a python program to check given number is prime or not
+
+11. Write a python program to print all prime numbers between 0 to 100 , and print how many prime numbers are there.
+
+
+
+Write a program that will ask the user for a message and the number of times they want that message displayed. Then output the message that number of times.
+- Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
+- Write a Python program to construct the following pattern, using a nested for loop.
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
+   
